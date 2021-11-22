@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+div.row {
+    display: flex;
+}
+
+div.cell {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+
+div.alive {
+    background-color: blue;
+}
